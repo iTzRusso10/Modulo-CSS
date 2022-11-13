@@ -1,0 +1,52 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    border:1px solid gray;
+    align-self: center;
+    margin-bottom: 20px;
+    background-color: gray;
+    
+  }
+  .navbar {
+    display: flex;
+    width: 200px;
+    height: 100vh;
+    flex-direction: column;
+    border-right: 1px solid gray;
+  }
+  a {
+    color: #2b2b2b;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: font-size 0.3s;
+    text-align: center;
+    flex-grow: 1;
+    font-weight: bold;
+  }
+  a:hover {
+    color: #2b2bb2;
+    font-size: 30px;
+  }
+  
+  .avatar {
+    justify-content: flex-end;
+    width: 35px;
+    height: 40px;
+    align-self: center;
+    border-radius: 20px;
+  }
+  span {
+    text-align: center;
+    border-bottom: 20px;
+  }
+  
+  .logo p{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(196, 196, 196);
+  }
