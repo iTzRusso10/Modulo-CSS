@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>NavBar (Exercise 7 HTML-Module)</title>
+  </head>
+  <body>
+    <nav id="container">
+      <div class="div-container">
+        <div class="nav-link">
+          <strong>Navbar</strong>
+          <a href="/html/">Home</a>
+          <a href="/css/">Link</a>
+        </div>
+        <div class="dropdown-select">
+          <select class="modify-select">
+            <option value="default">Dropdown</option>
+            <option value="articles">Articles</option>
+            <option value="articles">Blog</option>
+            <option value="articles">Contacts</option>
+          </select>
+        </div>
+        <div class="button-dis">
+          <button disabled class="disable">Disabled</button>
+        </div>
+
+        <div class="search-bar">
+          <input
+            type="search"
+            name="search"
+            required
+            placeholder="Search"
+            maxlength="50"
+            minlength="2"
+          />
+
+          <div class="button-search">
+            <button type="search" class="search">Search</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
