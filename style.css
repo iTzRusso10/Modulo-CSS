@@ -3,8 +3,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 #container {
-  display:block;
-
+  display: block;
   flex-direction: row;
 }
 
@@ -15,6 +14,14 @@ body {
   display: flex;
   flex-direction: row;
   padding: 5px;
+  
+}
+.nav-title{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
 }
 
 .nav-link {
@@ -55,11 +62,14 @@ option {
 .search-bar {
   display: flex;
   align-self: center;
+  flex-wrap: nowrap;
 }
 
 input {
+  display: flex;
   border-radius: 3px;
   height: 35px;
+  flex-shrink: 3;
 }
 
 .button-search {
@@ -72,7 +82,7 @@ input {
 }
 
 .search {
-  background: transparent;
+    background: transparent;
   color: rgb(56, 251, 56);
   border-radius: 5px;
 }
@@ -91,3 +101,5 @@ a {
 a:hover {
   color: gray;
 }
+
+
