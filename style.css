@@ -1,47 +1,47 @@
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
- 
 }
-.container > div{
+.container > div {
   text-align: center;
-  border: 0.5px solid rgb(161,177,191);
+  border: 0.5px solid rgb(161, 177, 191);
   padding: 13px;
-  background-color: rgb(229,239,242) ;
- 
+  background-color: rgb(229, 239, 242);
 }
-.body-div{
-    width: 249px;
-    height: 270px;
+.body-div {
+  width: 249px;
+  height: 270px;
 }
-#item1{
-    grid-area: 1 / 1 / 1 / 5;
-    background-color: rgb(66,76,82);
-    padding:10px;
-    grid-row: 15px;
-    text-align: right;
-    color:white;
-    border-radius: 12px 12px 0 0;
+#item1 {
+  grid-area: 1 / 1 / 1 / 5;
+  background-color: rgb(66, 76, 82);
+  padding: 10px;
+  grid-row: 15px;
+  text-align: right;
+  color: white;
+  border-radius: 12px 12px 0 0;
 }
-#item2{
-    background-color:rgb(210,220,228);
+#item2 {
+  background-color: rgb(210, 220, 228);
 }
-#item3{
-    background-color:rgb(210,220,228);
+#item3 {
+  background-color: rgb(210, 220, 228);
 }
-#item4{
-    background-color:rgb(210,220,228);
+#item4 {
+  background-color: rgb(210, 220, 228);
 }
-#item5{
-    background-color:rgb(210,220,228);
+#item5 {
+  background-color: rgb(210, 220, 228);
 }
-#item18{
-    grid-area: 3 / 4 / 7 / 4;
-    background-color: rgb(255, 110, 110);
-    border-radius: 0 0 12px 0;
-    padding-top: 80px;
+#item18 {
+  grid-area: 3 / 4 / 7 / 4;
+  background-color: rgb(255, 110, 110);
+  border-radius: 0 0 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .item15 {
-    border-radius: 0 0 0 12px;
+  border-radius: 0 0 0 12px;
 }
