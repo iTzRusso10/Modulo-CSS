@@ -1,0 +1,55 @@
+body {
+  width: 60em;
+  margin: 0 ;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+
+
+section {
+  padding: 2em;
+  margin: 1em;
+  
+}
+
+#green {
+  background-color: #8ffda7;
+  grid-area: 1/1/1/4;
+}
+
+#orange {
+  background-color: #ffc788;
+  grid-area: 3/1/3/3;
+}
+
+#yellow {
+  background-color: #ffff92;
+
+}
+
+#red {
+  background-color: #ff919c;
+
+}
+
+#blue {
+  background-color: #98d2ff;
+  grid-area: 2/3/4/3;
+}
+
+ul {
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+  display: block;
+  text-align: center;
+
+}
