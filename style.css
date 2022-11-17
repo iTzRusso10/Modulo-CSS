@@ -102,4 +102,21 @@ a:hover {
   color: gray;
 }
 
+.icon{
+  display: none;
+}
+
+@media (max-width:768px){
+  .nav-link, 
+  .dropdown-select,
+  .button-dis, 
+  .search-bar, 
+  .button-search{
+    display: none;
+  }
+  .icon{
+    display: flex;
+  }
+}
+
 
